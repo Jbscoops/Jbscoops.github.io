@@ -11,6 +11,7 @@
       background: #f6f7fb;
       color: #222;
     }
+
     .container {
       max-width: 900px;
       margin: 60px auto;
@@ -18,9 +19,17 @@
       background: white;
       border-radius: 12px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      position: relative;
       text-align: center;
     }
-    h1 { margin-top: 8px; }
+
+    /* Logo positioning */
+    .logo {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      max-width: 220px;
+    }
 
     .nav {
       margin-bottom: 20px;
@@ -40,6 +49,16 @@
       color: white;
     }
 
+    .btn {
+      display: inline-block;
+      padding: 12px 18px;
+      background: black;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    h1 { margin-top: 8px; }
     ul { text-align: left; display: inline-block; }
 
     footer {
@@ -51,24 +70,27 @@
 </head>
 <body>
   <div class="container">
+
+    <img src="JbscoopsLogo.png" alt="JBScoops Logo" class="logo" />
+
     <div class="nav">
       <a href="index.html">Home</a>
       <a href="locations.html" class="active">Locations</a>
     </div>
 
-    <img src="JbscoopsLogo.png" alt="JBScoops Logo" style="max-width: 160px; margin-bottom: 12px;" />
-
     <h1>Areas We Cover</h1>
     <p>We currently offer services in the following locations:</p>
 
     <ul>
-      <li>Example Town</li>
-      <li>Another Village</li>
-      <li>Nearby City</li>
-      <li>Surrounding Areas</li>
+      <li>That one area</li>
+      <li>Another area that's near the first one</li>
+      <li>Woah is this yet another place??</li>
+      <li>Yoo this is my area!!</li>
     </ul>
 
-    <p>If you’re unsure whether we cover your area, just email us!</p>
+    <h2>Contact</h2>
+    <p>Email: Jbscoopsest26@gmail.com</p>
+    <a class="btn" href="mailto:Jbscoopsest26@gmail.com">Email us</a>
 
     <footer>
       © 2026 JBScoops
