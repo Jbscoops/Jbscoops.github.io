@@ -10,6 +10,7 @@
       margin: 0;
       background: #f6f7fb;
       color: #222;
+      overflow-y: scroll;
     }
 
     .container {
@@ -55,6 +56,7 @@
       color: white;
       border-radius: 6px;
       text-decoration: none;
+      margin-top: 12px;
     }
 
     h1 { margin-top: 8px; }
@@ -72,7 +74,6 @@
     .services-row.flex-center {
       margin-top: 16px;
     }
-
     .service-card,
     .why-card {
       background: #f3f4f8;
@@ -102,6 +103,23 @@
       font-size: 14px;
       opacity: 0.9;
     }
+    .faq-section {
+      text-align: left;
+      max-width: 700px;
+      margin: 24px auto;
+    }
+    .faq-item {
+      margin-bottom: 16px;
+    }
+    .faq-item .question {
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .faq-item .answer {
+      margin-left: 12px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
 
     footer {
       margin-top: 40px;
@@ -123,12 +141,12 @@
 </head>
 <body>
   <div class="container">
-
     <img src="JbscoopsLogo.png" alt="JBScoops Logo" class="logo" />
 
     <div class="nav">
       <a href="index.html" class="active">Home</a>
       <a href="locations.html">Locations</a>
+      <a href="contact.html">Contact Us</a>
     </div>
 
     <h1>JBScoops</h1>
@@ -136,7 +154,7 @@
 
     <h2>Services</h2>
 
-    <!-- Services first row with 3 things -->
+    <!-- Services first row thing thinger -->
     <div class="services-row">
       <div class="service-card">
         <img src="JbscoopsLogo.png" alt="Service 1 placeholder" />
@@ -155,7 +173,7 @@
       </div>
     </div>
 
-    <!-- Services second row with 2 things -->
+    <!-- Services second row thingy -->
     <div class="services-row flex-center">
       <div class="service-card">
         <img src="JbscoopsLogo.png" alt="Service 4 placeholder" />
@@ -169,7 +187,7 @@
       </div>
     </div>
 
-    <!-- Why Choose Us section thing -->
+    <!-- Why Choose Us Section thing -->
     <h2 class="subtitle">Why Choose Us?</h2>
     <div class="why-choose-us">
       <div class="why-card">
@@ -201,6 +219,39 @@
         <img src="JbscoopsLogo.png" alt="Reason 6 placeholder" />
         <div class="why-title">Fully Insured</div>
         <div class="why-desc">We are fully covered and trained professionals.</div>
+      </div>
+    </div>
+
+    <!-- FAQ Section! -->
+    <h2 class="subtitle">Frequently Asked Questions</h2>
+    <div class="faq-section">
+      <div class="faq-item">
+        <div class="question">Q1: What exactly is this?</div>
+        <div class="answer">We clean up your dogs waste from your gardens/spaces.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Q2: Do I need to be home?</div>
+        <div class="answer">Not at all! As long as we can get in where we're needed.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Q3: What do you do with the poop?</div>
+        <div class="answer">We double bag it with scented bags and place it in your bin ready for trash day.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Q4: What about the weather?</div>
+        <div class="answer">Unless its impossible or dangerous for us we are committed to our service.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Q5: Are you fully insured?</div>
+        <div class="answer">Yes, we carry full insurance for your peace of mind.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Q6: Filler 6?</div>
+        <div class="answer">Definitely a 6th filler.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question">Q7: How about a 7th?</div>
+        <div class="answer">Certaintly is a 7th.</div>
       </div>
     </div>
 
